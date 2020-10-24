@@ -197,6 +197,35 @@ main .main__about {
 
 /* team end */
 
+.services__cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.main__services h2 {
+    padding: 100px 0 30px 0;
+    text-align: center;
+    font-weight: 600;
+    line-height: 24px;
+    color: #222222;
+}
+
+.main__services p {
+    color: #6c6c6c;
+    margin-bottom: 102px;
+}
+
+.services__card h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* services  start */
+
+/* services end */
+
 /* media for burger start */
 @media screen and (max-width: 1270px) {
     nav {
@@ -289,6 +318,12 @@ main .main__about {
         flex-direction: column;
     }
     /*media for team end*/
+
+    /* media for services start */
+    .services__cards {
+        grid-template-columns: auto;
+    }
+    /* media for services end */
 }
 
 
