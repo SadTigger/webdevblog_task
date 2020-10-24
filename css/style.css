@@ -56,7 +56,7 @@ nav {
 
 /* header + nav */
 
-/* main__velcome */
+/* velcome */
 
 main {
     display: flex;
@@ -83,7 +83,64 @@ main .main__velcome h1 {
 .mycompany {
     color: #fcac45;
 }
-/* main__velcome */
+
+.highlighted {
+    color: #ffffff;
+    font-weight: bold;
+}
+/* velcome */
+
+/* wrapper */
+.wrapper {
+    width: 76%;
+    margin: 0 auto;
+}
+/* wrapper */
+
+/* about*/
+
+main .main__about {
+    display: flex;
+    padding: 100px 0 100px 0;
+}
+
+.about__rigth {
+    margin-left: 175px;
+}
+
+.about__rigth h1 {
+    color: #222222;
+    display: inline-block;
+    border-bottom: 3px solid #fcac45;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+
+.about_us {
+    color: #000;
+    font-weight: 800;
+    font-style: bold;
+    font-family: sans-serif;
+}
+
+.about__rigth p {
+    margin: 30px 0 50px 0;
+    color: #6c6c6c;
+}
+
+.about__rigth li {
+    background: url(../img/mark.png) 0px no-repeat;
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #5a5a5a;
+}
+
+/* about*/
+
+.mw-100 {
+    min-width: 100%;
+}
 
 /* media for burger */
 @media screen and (max-width: 1270px) {
@@ -136,6 +193,41 @@ main .main__velcome h1 {
         display: block;
         text-align: left;
     }
+
+    /* media for burger */
+
+    /* media for welcome */
+
+    main .main__velcome {
+        padding: 50px 0 50px 0;
+    }
+
+    main .main__velcome p {
+        font-size: 14px;
+    }
+
+    main .main__velcome h1 {
+        font-size: 25px;
+    }
+    .mw-100 {
+        max-width: 100%;
+    }
+    .main__about {
+        flex-direction: column;
+    }
+    .about__rigth {
+        text-align: center;
+        margin-left: 0;
+    }
+    .about__rigth li {
+        text-align: left;
+    }
+    .about__rigt h1 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
 }
 
-/* media for burger */
+
+
+
