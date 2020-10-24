@@ -240,6 +240,35 @@ main .main__about {
 }
 /* services end */
 
+
+
+/* testimonials start */
+.main__testimonials {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 173px;
+}
+
+.main__testimonials h2 {
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.main__testimonials .testimonials {
+    text-transform: uppercase;
+    margin-bottom: 49px;
+    color: #e7e7e7;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.main__testimonials .testimonials_author {
+    color: #b2b2b2;
+}
+/* testimonials end */
+
 /* media for burger start */
 @media screen and (max-width: 1270px) {
     nav {
