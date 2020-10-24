@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* header + nav */
+
 a {
     text-decoration: none;
 }
@@ -21,7 +23,7 @@ header {
     display: flex;
 }
 
-.header_logo {
+.header__logo {
     text-transform: uppercase;
     color: #fff;
     font-weight: 800;
@@ -52,7 +54,38 @@ nav {
     display: none;
 }
 
+/* header + nav */
 
+/* main__velcome */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .main__velcome {
+    background: #000;
+    text-align: center;
+    padding: 200px 0 410px 0;
+}
+
+main .main__velcome p {
+    color: #999999;
+    font-size: 20px;
+}
+
+main .main__velcome h1 {
+    color: #999999;
+    font-size: 44px;
+}
+
+.mycompany {
+    color: #fcac45;
+}
+/* main__velcome */
+
+/* media for burger */
 @media screen and (max-width: 1270px) {
     nav {
         margin-left: 25%;
@@ -103,5 +136,6 @@ nav {
         display: block;
         text-align: left;
     }
-
 }
+
+/* media for burger */
