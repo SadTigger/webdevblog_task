@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* header + nav start */
+/* header + nav begin */
 
 a {
     text-decoration: none;
@@ -56,7 +56,7 @@ nav {
 
 /* header + nav end*/
 
-/* velcome start */
+/* velcome begin */
 
 main {
     display: flex;
@@ -90,14 +90,14 @@ main .main__velcome h1 {
 }
 /* velcome end */
 
-/* wrapper start */
+/* wrapper begin */
 .wrapper {
     width: 76%;
     margin: 0 auto;
 }
 /* wrapper end */
 
-/* about start */
+/* about begin */
 
 main .main__about {
     display: flex;
@@ -142,7 +142,7 @@ main .main__about {
     min-width: 100%;
 }
 
-/* team start */
+/* team begin */
 
 .main__team {
     background: #000;
@@ -222,7 +222,7 @@ main .main__about {
     margin-bottom: 15px;
 }
 
-/* services  start */
+/* services  begin */
 .main__clients {
     background: #000;
     padding: 100px 0 205px 0;
@@ -240,9 +240,31 @@ main .main__about {
 }
 /* services end */
 
+/* work begin */
+.main__work  {
+    text-align: center;
+    padding: 100px 0 100px 0;
+}
 
+.main__work h2 {
+    margin-bottom: 30px;
+    color: #222222;
+    /* margin-top: 100px; */
+    text-transform: uppercase;
+}
 
-/* testimonials start */
+.main__work p {
+    /* margin-top: 56px; */
+    margin-bottom: 175px;
+    color: #6c6c6c;
+}
+
+.main__work img:hover {
+    opacity: 0.9;
+}
+/* work end */
+
+/* testimonials begin */
 .main__testimonials {
     background: #000;
     text-align: center;
@@ -269,7 +291,7 @@ main .main__about {
 }
 /* testimonials end */
 
-/* media for burger start */
+/* media for burger begin */
 @media screen and (max-width: 1270px) {
     nav {
         margin-left: 25%;
@@ -323,7 +345,7 @@ main .main__about {
 
     /* media for burger end */
 
-    /* media for welcome start */
+    /* media for welcome begin */
 
     main .main__velcome {
         padding: 50px 0 50px 0;
@@ -356,17 +378,29 @@ main .main__about {
 
     /* media for welcome end */
 
-    /*media for team start*/
+    /*media for team begin*/
     .team__cards {
         flex-direction: column;
     }
     /*media for team end*/
 
-    /* media for services start */
+    /* media for services begin */
     .services__cards {
         grid-template-columns: auto;
     }
     /* media for services end */
+
+    /* media for work begin */
+    .line1 img:not(:first-child) {
+        display: none;
+    }
+    .line2 img:not(:first-child) {
+        display: none;
+    }
+    .line3 img:not(:first-child) {
+        display: none;
+    }
+    /* media for work end */
 }
 
 
