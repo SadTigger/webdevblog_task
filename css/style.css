@@ -350,7 +350,7 @@ input[type=submit] {
 .contact__form h2, p {
     color: #6c6c6c;
     text-align: center;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 } 
 
 .contact__form h2 {
@@ -359,6 +359,7 @@ input[type=submit] {
 }
 
 form p {
+    margin-bottom: 0;
     text-align: left;
 }
 /* contact end */
@@ -473,6 +474,26 @@ form p {
         display: none;
     }
     /* media for work end */
+
+    /* media for contact form begin */
+    .contact__wrapper {
+        width: 99%;
+    }
+    form input {
+        width: 99%;
+    }
+
+    textarea {
+        width: 99%;
+    }
+    .form__inputs {
+        flex-direction: column;
+    }
+    input[type=submit] {
+        width: 99%;
+        margin: 0 auto;
+    }
+    /* media for contact form end */
 }
 
 
