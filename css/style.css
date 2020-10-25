@@ -500,21 +500,24 @@ footer {
 
     /* media for contact form begin */
     .contact__wrapper {
-        width: 99%;
+        width: 100%;
     }
     form input {
-        width: 99%;
+        width: 100%;
     }
 
     textarea {
-        width: 99%;
+        width: 100%;
     }
     .form__inputs {
         flex-direction: column;
     }
     input[type=submit] {
-        width: 99%;
+        width: 100%;
         margin: 0 auto;
+    }
+    input:first-of-type {
+        margin-right: 0;
     }
     /* media for contact form end */
 }
