@@ -130,7 +130,7 @@ main .main__about {
 }
 
 .about__rigth li {
-    background: url(../img/mark.png) 0px no-repeat;
+    background: url(../assests/icons/mark.png) 0px no-repeat;
     padding-left: 20px;
     margin-top: 10px;
     color: #5a5a5a;
